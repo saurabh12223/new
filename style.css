@@ -1,0 +1,439 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    }
+    *{
+    box-sizing: border-box;
+    }
+    .container>.navbar-brand{
+font-size: 30px;
+font-weight: bold;
+color: #3798DB;
+    }
+    .nav-item>.Active{
+color: #3798DB;
+font-weight: bold;
+    }
+.nav-item>.nav-link{
+font-weight: bold;
+}
+.nav-item>.nav-link:hover{
+color: #3798DB;
+text-decoration: underline;
+transition:0.5s;
+}
+.Get-started-btn{
+    border: none;
+    background-color: #3798DB;
+    color: white;
+    font-weight: bold; 
+    padding: 5px 4px;
+    width: 120px;
+    height:37px ;
+    border-radius: 30px;
+}
+.Get-started-btn:hover{
+  background-color: white;
+  border:2px solid #3798DB; 
+  color: #3798DB; 
+}
+.hero{
+    margin-top: 3%;
+}
+.hero-text{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top:6%;
+    color: #3798DB;
+
+}
+@media screen and (max-width:700px){
+    .hero-text{
+        font-size:28px;
+    }   
+}
+.hero-pargreph{
+    font-size: 16px;
+    color: #333;
+}
+.Started-btn{
+    background-color: white;
+    border:2px solid #3798DB; 
+    color: #3798DB; 
+  font-size: 16px;
+  text-align: center;
+  width: 166px;
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 5%;
+  margin-bottom:4%;
+}
+.Started-btn:hover{
+    background-color: #3798DB;
+    color: white;
+    transition: 0.5;
+}
+.Hero-logo{
+    background-color:#d5f7fd58;
+height: auto;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+.client-1{
+    width: 176px;
+    height: 73px;
+    margin:10px;
+    padding: 18px;
+}
+@keyframes grow-and-shrink {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+
+  .box {
+    animation: grow-and-shrink 2000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.aos-item::before {
+  content: attr(data-id);
+  position: relative;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.aos-item>h1{
+  font-size: 34px;
+  font-weight: bold;
+  color: #3798DB;
+  padding-top: 7%;
+}
+@media screen and (max-width:700px){
+  .aos-item>h1{
+      font-size:30px;
+  }   
+}
+.About-section>p{
+  color:#333;
+  font-size: 16px;
+}
+.aos-item>.About-text{
+  font-size: 14px;
+  font-weight: bold;
+  color: #3798DB;
+  padding-top:30px;
+  text-align:center;
+}
+.about-paregreph{
+font-size: 16px;
+color: #333;
+padding-top:20px;
+}
+.about-btn{
+  width:166px;
+height:45px;
+border-radius:30px;
+border:2px solid #3798DB;
+color:#3798DB;
+font-size:16px;
+background-color: #fff;
+margin-top: 20px;
+}
+.about-btn:hover{
+  background-color: #3798DB;
+  cursor: pointer;
+  color: #fff;
+}
+
+.img-text{
+  font-size: 20px;
+  font-weight: bold;
+  color: #3798DB;
+}
+.about-img{
+  width: 60px;
+  height:80px;
+  padding-top: 30px;
+  background-color: transparent;
+}
+.about-images{
+  width: 60px;
+  height:80px;
+  padding-top: 20px; 
+}
+.image-text{
+  padding-top:40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3798DB;
+  padding-left:10px;
+}
+.size{
+  font-size: 24px;
+  color: #3798DB;
+  font-weight: bold;
+}
+.Services-img{
+width: 58px;
+height: 58px;
+border-radius: 50px;
+}
+@media screen and (max-width:700px){
+  .size{
+      font-size:18px;
+  }   
+}
+.img-box{
+  position: absolute;
+  bottom:4%;
+  left:5%;
+  width: 90%;
+   background-color:#eeececc5;
+   border-radius:10px;
+  height: 120px;
+}
+.img-box>h2{
+  font-size: 28px;
+  text-align: center;
+  color: #3798DB;
+  font-weight: bold;
+  padding-top: 2%;
+}
+@media screen and (max-width:700px){
+  .img-box>h2{
+      font-size:22px;
+  }  
+  .img-box>p{
+    font-size:12px;
+  }  
+}
+.img-box>p{
+  font-size:16px;
+  text-align: center;
+}
+.Services-image{
+  margin-top: 4%;
+}
+.box-img {
+  border-radius: 10px;
+}
+.Features{
+  border: 2px solid rgba(51, 51, 34, 0.389);
+  margin-top:4%;  
+}
+.Features>h2{
+  font-size: 24px;
+  color: #3798DB;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.Features-logo{
+width: 50px;
+height: 50px;
+padding: 3%;
+}
+
+.swiper{
+  width: 100%;
+  height: 100%;
+  background-color:#69b5eb09; 
+}
+.swiper-slide {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  width:638px;
+  height:320px;
+}
+.Swiper-text{
+  color: #3798DB;
+}
+.Team-text{
+  color: #3798DB;
+}
+.swiper-slide img {
+  display: block;
+  width:100px;
+  height:80px;
+  object-fit: cover;
+  position: absolute;
+  left:10;
+  top:50;
+}
+.Portfolio-text{
+  padding-top: 5%;
+  color: #3798DB;
+}
+.Portfolio-bold{
+  color:#3798DB;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Portfolio-text{
+  color:#333;
+  font-weight: bold;
+  font-size: 18px;
+}
+.team-name{
+  background-color: #fff;
+  width: 100%;
+}
+.team-name>h5{
+  color: #3798DB;
+  padding-top:3%;
+padding-left: 3%;
+}
+.team-name>p{
+  padding-left: 3%;
+  padding-bottom:3%;
+}
+.Pricing h3{
+  padding: 5% 0% 5% 5%;
+  color: #3798DB;
+  font-size: 24px;
+}
+.Pricing h3{
+  padding: 5% 0% 5% 5%;
+  color: #3798DB;
+  font-size: 24px;
+}
+.Pricing span{
+  padding: 5% 0% 5% 5%;
+  color: #3798DB;
+  font-size:34px;
+}
+.Pricing h5{
+  color:#333;
+}
+.Pricing .fast-chlid{
+  color:#333;
+}
+.icons{
+  padding-top: 11%;
+  padding-left:10.9%
+}
+.Pricing i{
+  color: #3798DB;
+  padding-right: 2%;
+  padding-top: 1%;
+}
+.buy-now-btn{
+  border: 2px solid #3798DB;
+  background-color: white;
+  color: #3798DB;
+  text-align: center;
+  margin-top: 5%;
+  margin-left:11%;
+  font-size: 16px;
+  border-radius: 30px;
+  width: 138px;
+  height: 43px;
+ display: flex;
+ align-items:  center;
+ justify-content: center;
+}
+.buy-now-btn:hover{
+  background-color: #3798DB;
+  color: white;
+}
+.Business-Plan{
+  border-top:4px solid #3798DB
+}
+.buy-now-button{
+  background-color:#3798DB;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  margin-left:11%;
+  font-size: 16px;
+  border-radius: 30px;
+  width: 138px;
+  height: 43px;
+  border: none;
+ display: flex;
+ align-items:  center;
+ justify-content: center;
+}
+.buy-now-button:hover{
+  background-color: white;
+  color: #3798DB;
+  border: 2px solid #3798DB;
+}
+.Questions{
+  background-color:#69b5eb09; 
+margin-top:7%;
+}
+.Questions h1{
+  color:#3798DB;
+  font-size: 18px;
+  font-weight: normal;
+}
+.icon{
+  color: #3798DB;
+  border: 2px solid #3798DB;
+  border-radius:50%;
+  padding: 5px;
+  width: 28px;
+  height:28px;
+  text-align: center;
+  margin-right: 2%;
+}
+.Questions-text{
+  font-size: 16px;
+  color: #333;
+}
+.contact-icons{
+  width: 45px;
+  height:45px;
+  margin:5px 20px 10px 0;
+  border-radius: 50px;
+}
+.contact-text{
+  font-size: 21px;
+  color: #3798DB;
+  font-weight: bold;
+}
+.contact-hadding{
+  color: #333;
+  font-size: 16px;
+}
+.name{
+  font-size: 16px;
+  padding: 10px 15px;
+  width: 361px;
+  height: 45px;
+  margin:2%;
+}
+.Subject{
+  font-size: 16px;
+  padding: 10px 15px;
+  width:96%;
+  height:45px;
+  margin:2%;
+}
+.Message{
+  font-size: 16px;
+  width:96%;
+  height:145px;
+  margin:2%;
+}
